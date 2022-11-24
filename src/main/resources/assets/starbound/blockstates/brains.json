@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "layers=1": {
+      "model": "starbound:block/brains_height2"
+    },
+    "layers=2": {
+      "model": "starbound:block/brains_height4"
+    },
+    "layers=3": {
+      "model": "starbound:block/brains_height6"
+    },
+    "layers=4": {
+      "model": "starbound:block/brains_height8"
+    },
+    "layers=5": {
+      "model": "starbound:block/brains_height10"
+    },
+    "layers=6": {
+      "model": "starbound:block/brains_height12"
+    },
+    "layers=7": {
+      "model": "starbound:block/brains_height14"
+    },
+    "layers=8": {
+      "model": "starbound:block/brains_block"
+    }
+  }
+}

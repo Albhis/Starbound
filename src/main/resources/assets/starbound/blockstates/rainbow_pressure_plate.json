@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "starbound:block/rainbow_pressure_plate"
+    },
+    "powered=true": {
+      "model": "starbound:block/rainbow_pressure_plate_down"
+    }
+  }
+}

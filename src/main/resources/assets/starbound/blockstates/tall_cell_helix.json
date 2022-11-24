@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "half=upper": { "model": "starbound:block/tall_cell_helix_upper"},
+    "half=lower": { "model": "starbound:block/tall_cell_helix_lower"}
+  }
+}

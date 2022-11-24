@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "starbound:block/packed_bones3",
+    "bottom": "starbound:block/packed_bones1",
+    "side": "starbound:block/packed_bones2"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "starbound:block/cell_compound"}
+  }
+}

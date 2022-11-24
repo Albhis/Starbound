@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "starbound:block/rib_bones",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "starbound:block/rib_bones"
+    },
+    "facing=south": {
+      "model": "starbound:block/rib_bones",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "starbound:block/rib_bones",
+      "y": 270
+    }
+  }
+}

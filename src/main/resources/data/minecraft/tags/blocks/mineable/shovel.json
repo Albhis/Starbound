@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "starbound:tar_block",
+    "starbound:sludge",
+    "starbound:ooze"
+  ]
+}

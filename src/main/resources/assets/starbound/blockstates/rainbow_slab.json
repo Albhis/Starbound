@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "starbound:block/rainbow_slab"
+    },
+    "type=double": {
+      "model": "starbound:block/rainbow_planks"
+    },
+    "type=top": {
+      "model": "starbound:block/rainbow_slab_top"
+    }
+  }
+}

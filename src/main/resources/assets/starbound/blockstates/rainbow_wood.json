@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "starbound:block/rainbow_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "starbound:block/rainbow_wood"
+    },
+    "axis=z": {
+      "model": "starbound:block/rainbow_wood",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "starbound:block/rainbow_log",
+    "side": "starbound:block/rainbow_log"
+  }
+}

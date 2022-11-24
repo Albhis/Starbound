@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "writhing=false": { "model": "starbound:block/nerve_idle"},
+    "writhing=true": { "model": "starbound:block/nerve_writhing"}
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "starbound:block/oasis_grass_top5",
+    "bottom": "minecraft:block/sand",
+    "side": "starbound:block/oasis_grass_side"
+  }
+}

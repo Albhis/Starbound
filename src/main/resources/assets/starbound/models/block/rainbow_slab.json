@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "starbound:block/rainbow_planks",
+    "top": "starbound:block/rainbow_planks",
+    "side": "starbound:block/rainbow_planks"
+  }
+}

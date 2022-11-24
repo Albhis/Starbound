@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "starbound:rainbow_log",
+    "starbound:rainbow_wood",
+    "starbound:stripped_rainbow_log",
+    "starbound:stripped_rainbow_wood"
+  ]
+}

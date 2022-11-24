@@ -1,0 +1,508 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "up": "true",
+        "age": "0"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_flat",
+        "x": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "0"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_flat",
+        "x": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "age": "0"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage0"
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "0"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage0"
+      }
+    },
+    {
+      "when": {
+        "west": "true",
+        "age": "0"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage0",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "0"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage0",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true",
+        "age": "0"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage0",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "0"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage0",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "true",
+        "age": "0"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage0",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "0"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage0",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "true",
+        "age": "1"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_flat",
+        "x": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "1"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_flat",
+        "x": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "age": "1"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage1"
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "1"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage1"
+      }
+    },
+    {
+      "when": {
+        "west": "true",
+        "age": "1"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage1",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "1"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage1",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true",
+        "age": "1"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage1",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "1"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage1",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "true",
+        "age": "1"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage1",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "1"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage1",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "true",
+        "age": "2"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_flat",
+        "x": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "2"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_flat",
+        "x": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "age": "2"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage2"
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "2"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage2"
+      }
+    },
+    {
+      "when": {
+        "west": "true",
+        "age": "2"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage2",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "2"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage2",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true",
+        "age": "2"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage2",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "2"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage2",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "true",
+        "age": "2"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage2",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "2"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage2",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "true",
+        "age": "3"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_flat",
+        "x": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "3"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_flat",
+        "x": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "age": "3"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage3"
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "3"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage3"
+      }
+    },
+    {
+      "when": {
+        "west": "true",
+        "age": "3"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage3",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "3"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage3",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true",
+        "age": "3"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage3",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "3"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage3",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "true",
+        "age": "3"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage3",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "false",
+        "west": "false",
+        "south": "false",
+        "east": "false",
+        "age": "3"
+      },
+      "apply": {
+        "model": "starbound:block/grape_vines_stage3",
+        "y": 90,
+        "uvlock": true
+      }
+    }
+  ]
+}

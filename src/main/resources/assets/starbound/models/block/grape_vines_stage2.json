@@ -1,0 +1,31 @@
+{
+
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "starbound:block/grape_vines_stage1",
+		"2": "starbound:block/grape_vines_stage2"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0.2],
+			"to": [16, 16, 0.2],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#2"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [5, 0, -11],
+			"to": [11, 16, -5],
+			"faces": {
+				"north": {"uv": [5, 0, 11, 16], "texture": "#2"},
+				"east": {"uv": [5, 0, 11, 16], "texture": "#2"},
+				"south": {"uv": [5, 0, 11, 16], "texture": "#2"},
+				"west": {"uv": [5, 0, 11, 16], "texture": "#2"},
+				"up": {"uv": [5, 5, 11, 11], "texture": "#2"},
+				"down": {"uv": [5, 5, 11, 11], "texture": "#2"}
+			}
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "starbound:block/eye_stalk_head"
+  }
+}

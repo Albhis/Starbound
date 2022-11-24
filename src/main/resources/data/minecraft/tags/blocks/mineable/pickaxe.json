@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "starbound:wet_sandstone",
+    "starbound:leaking_wet_sandstone",
+    "starbound:packed_bones"
+  ]
+}

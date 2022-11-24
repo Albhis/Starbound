@@ -1,0 +1,18 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "starbound:block/grape_vines_stage1",
+		"0": "starbound:block/grape_vines_stage0"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0.2],
+			"to": [16, 16, 0.2],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	]
+}

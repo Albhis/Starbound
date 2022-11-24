@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "starbound:potted_shimmershroom",
+    "starbound:potted_vortex_novabloom",
+    "starbound:potted_nebula_novabloom",
+    "starbound:potted_stardust_novabloom"
+  ]
+}

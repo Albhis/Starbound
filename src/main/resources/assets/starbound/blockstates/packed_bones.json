@@ -1,0 +1,29 @@
+{
+  "variants": {
+    "":[
+      { "model": "starbound:block/packed_bones1", "weight": 35},
+
+      { "model": "starbound:block/packed_bones2", "weight": 35},
+
+      { "model": "starbound:block/packed_bones3", "weight": 35},
+
+      { "model": "starbound:block/packed_bones4", "weight": 100},
+
+      { "model": "starbound:block/packed_bones5", "weight": 50},
+
+      { "model": "starbound:block/packed_bones6", "weight": 50},
+
+      { "model": "starbound:block/packed_bones1", "weight": 25, "x": 180},
+
+      { "model": "starbound:block/packed_bones2", "weight": 25, "x": 180},
+
+      { "model": "starbound:block/packed_bones3", "weight": 25, "x": 180},
+
+      { "model": "starbound:block/packed_bones4", "weight": 40, "x": 180},
+
+      { "model": "starbound:block/packed_bones5", "weight": 35, "x": 180},
+
+      { "model": "starbound:block/packed_bones6", "weight": 35, "x": 180}
+    ]
+  }
+}

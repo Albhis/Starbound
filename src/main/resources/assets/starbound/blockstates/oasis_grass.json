@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "":[
+      { "model": "starbound:block/oasis_grass0", "weight": 125},
+
+      { "model": "starbound:block/oasis_grass1", "weight": 75},
+
+      { "model": "starbound:block/oasis_grass2", "weight": 50},
+
+      { "model": "starbound:block/oasis_grass3", "weight": 50},
+
+      { "model": "starbound:block/oasis_grass4", "weight": 50},
+
+      { "model": "starbound:block/oasis_grass5", "weight": 50}
+    ]
+  }
+}

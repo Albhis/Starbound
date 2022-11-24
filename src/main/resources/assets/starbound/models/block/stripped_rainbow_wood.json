@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "starbound:block/stripped_rainbow_log",
+    "side": "starbound:block/stripped_rainbow_log"
+  }
+}
