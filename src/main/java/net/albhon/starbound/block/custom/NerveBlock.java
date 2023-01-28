@@ -91,9 +91,7 @@ public class NerveBlock extends Block {
         }
     }
 
-    /**
-     * @return whether this block needs random ticking.
-     */
+
     public boolean isRandomlyTicking(BlockState pState) {
         return pState.getValue(WRITHING);
     }
@@ -107,11 +105,11 @@ public class NerveBlock extends Block {
 
     }
 
-
-    public void spawnAfterBreak(BlockState pState, ServerLevel pLevel, BlockPos pPos, ItemStack pStack) {
-        pLevel.playSound((Player) null, pPos, SoundEvents.ELDER_GUARDIAN_DEATH_LAND, SoundSource.BLOCKS, 1.5F, 0.3F);
-        super.spawnAfterBreak(pState, pLevel, pPos, pStack);
-    }
+//currently busted
+//    public void spawnAfterBreak(BlockState pState, ServerLevel pLevel, BlockPos pPos) {
+//        pLevel.playSound((Player) null, pPos, SoundEvents.ELDER_GUARDIAN_DEATH_LAND, SoundSource.BLOCKS, 1.5F, 0.3F);
+//        super.spawnAfterBreak(pState, pLevel, pPos);
+//    }
 
     public BlockState updateShape(BlockState pState, Direction pFacing, BlockState pFacingState, LevelAccessor pLevel, BlockPos pCurrentPos, BlockPos pFacingPos) {
         if (pFacing == Direction.DOWN && !pState.canSurvive(pLevel, pCurrentPos)) {

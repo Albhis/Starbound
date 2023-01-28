@@ -2,6 +2,7 @@ package net.albhon.starbound.block.custom;
 
 import net.albhon.starbound.block.ModBlocks;
 import net.minecraft.core.Direction;
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
@@ -17,15 +18,15 @@ public class EyeStalkHeadBlock extends GrowingPlantHeadBlock {
         super(p_154966_, Direction.DOWN, SHAPE, false, 0.1D);
     }
 
-    protected int getBlocksToGrowWhenBonemealed(Random p_154968_) {
-        return NetherVines.getBlocksToGrowWhenBonemealed(p_154968_);
+    protected int getBlocksToGrowWhenBonemealed(RandomSource source) {
+        return NetherVines.getBlocksToGrowWhenBonemealed(source);
     }
 
     protected Block getBodyBlock() {
         return ModBlocks.EYE_STALK.get();
     }
 
-    protected boolean canGrowInto(BlockState p_154971_) {
-        return NetherVines.isValidGrowthState(p_154971_);
+    protected boolean canGrowInto(BlockState state) {
+        return NetherVines.isValidGrowthState(state);
     }
 }
