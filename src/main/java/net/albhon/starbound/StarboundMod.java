@@ -49,7 +49,7 @@ public class StarboundMod
 
         ModBlockEntityTypes.register(eventBus);
 
-        ModConfiguredFeatures.register(eventBus);
+        // ModConfiguredFeatures.register(eventBus);
 
         eventBus.addListener(this::commonSetup);
 

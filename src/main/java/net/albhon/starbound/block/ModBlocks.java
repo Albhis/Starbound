@@ -260,7 +260,7 @@ public class ModBlocks {
             () -> new FenceGateBlock(BlockBehaviour.Properties.copy(ModBlocks.RAINBOW_PLANKS.get())));
 
     public  static final RegistryObject<Block> RAINBOW_DOOR = registerBlock("rainbow_door",
-            () -> DoorBlock(BlockBehaviour.Properties.copy(ModBlocks.RAINBOW_PLANKS.get())));
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(ModBlocks.RAINBOW_PLANKS.get())));
 
     public  static final RegistryObject<Block> RAINBOW_TRAPDOOR = registerBlock("rainbow_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(ModBlocks.RAINBOW_PLANKS.get())));
