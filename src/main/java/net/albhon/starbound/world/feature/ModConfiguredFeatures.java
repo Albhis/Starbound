@@ -19,12 +19,12 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModConfiguredFeatures {
 
-    public static final ResourceKey<ConfiguredFeature<?, ?>> HUGE_SHIMMERSHROOM = registerKey('huge_shimmershroom');
+    public static final ResourceKey<ConfiguredFeature<?, ?>> HUGE_SHIMMERSHROOM = registerKey("huge_shimmershroom");
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
         HolderGetter<PlacedFeature> placedFeatures = context.lookup(Registries.PLACED_FEATURE);
 
-        register(context, HUGE_SHIMMERSHROOM_KEY, Feature.HUGE_BROWN_MUSHROOM, new HugeMushroomFeatureConfiguration(BlockStateProvider.simple(ModBlocks.SHIMMERSHROOM_BLOCK.get()),
+        register(context, HUGE_SHIMMERSHROOM, Feature.HUGE_BROWN_MUSHROOM, new HugeMushroomFeatureConfiguration(BlockStateProvider.simple(ModBlocks.SHIMMERSHROOM_BLOCK.get()),
                                                                                                                     ()));
     }
 

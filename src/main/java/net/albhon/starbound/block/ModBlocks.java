@@ -7,6 +7,7 @@ import net.albhon.starbound.sound.ModSounds;
 import net.albhon.starbound.world.feature.ModConfiguredFeatures;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -232,7 +233,7 @@ public class ModBlocks {
         );
 
     public  static final RegistryObject<Block> RAINBOW_BUTTON = registerBlock("rainbow_button",
-            () -> woodenButton());
+            () -> new ButtonBlock(SoundType.WOOD, SoundEvents.WOODEN_BUTTON_CLICK_OFF, SoundEvents.WOODEN_BUTTON_CLICK_ON));
 
     public  static final RegistryObject<Block> RAINBOW_PRESSURE_PLATE = registerBlock("rainbow_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(ModBlocks.RAINBOW_PLANKS.get()).noCollission())
