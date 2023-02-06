@@ -53,8 +53,6 @@ public class StarboundMod
 
         eventBus.addListener(this::commonSetup);
 
-        MinecraftForge.EVENT_BUS.register(this);
-
         eventBus.addListener(this::addCreative);
 
         // Register ourselves for server and other game events we are interested in
